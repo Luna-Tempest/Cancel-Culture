@@ -1,1 +1,1 @@
-Acesse o arquivo cance-culte.pdf para ver a interface do site
+Acesse o arquivo cancel-culture.pdf para ver a interface do site
