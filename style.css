@@ -1,0 +1,547 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #807E7E;
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 100%;
+
+ }
+
+header{
+ width: 100%;
+ margin: 0;
+ padding: 0;
+ 
+}
+
+main{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-right: 20px;
+ margin-left: 20px;
+ margin-bottom: 20px;
+  
+}
+
+/* STYLE TEXT */
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  color: #F0358C;
+
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+p {
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+ color: #F2F2F2;
+}
+
+.paragraph{
+ padding: 10px;
+ text-align: center;
+ font-size: 18px;
+ margin-right: 20px;
+ margin-left: 20px;
+}
+
+.paragraph a{
+ color: #F2F2F2;
+}
+
+.paragraph a:hover {
+ background-color: #db7690;
+ border-radius: 10%;
+ padding: 3px;
+ 
+}
+
+.paragraph {
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+
+
+/* STYLE NAV BAR */
+
+ul.nav-bar {
+  list-style-type: none;        
+  overflow: hidden;
+
+  background-color: #f2f2f2;
+  border-style: none;
+
+}
+
+li.nav-item {
+  display: inline;       
+  float: right;           
+  padding: 5px;
+}
+
+li.nav-item a {
+
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15px;
+  color: #E1456C;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+li.nav-item a:hover {
+  background-color: #E1456C;
+  color: white;
+}
+
+
+/* Restart Button */
+
+#restart{ /*first thing you saw on the website*/
+ width: 100%;
+ padding: 15px;
+ border-style: none;
+ background-color: #fcc428;
+ 
+ text-align: left;
+ font-family: "Sora", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 30px;
+ color: white;
+  
+}
+
+/*Start Page title and image*/
+
+.Start-title{
+   margin: 0 auto; 
+   text-align: center; 
+ }
+
+
+.Start-title h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.Start-title img{
+ max-width: 1125px;
+ max-height: 375px;
+ 
+}
+
+.main-text-2 {
+ display:flex;
+ flex-direction: row;
+ gap: 10px;
+ margin-left: 30px;
+ 
+}
+
+#main-text-2 h2{
+ text-align: center;
+ font-size: 40px;
+ 
+}
+
+.main-text-2 img{
+ max-width: 480px;
+ max-height: 500px;
+ 
+
+}
+#cancellers-text{
+ text-align: left;
+ margin-top: 50px;
+ margin-right: 180px;
+}
+
+/*The Consequences*/
+
+.consequences {
+ margin-top: 30px;
+ margin-bottom: 10px;
+ /*margin-right: 35%
+ margin-left 30%*/
+
+ border-style: solid;
+ border-width: 5px;
+ border-color: #fcc428;
+ background-color: #fcc428;
+ 
+}
+
+
+#title-consequences {
+ font-size: 30px;
+ margin-left: 15px;
+ margin-right: 10px;
+}
+
+
+ul.list-Consequences {
+ list-style-type: inherit;
+
+ padding-top: 10px;
+ padding-bottom: 10px;
+ 
+}
+
+li.consequence-list {
+ margin-left: 20px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ 
+ font-family: "Open Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-style: normal;
+ font-size: 18px;
+ color: #F2F2F2;
+}
+
+/*final Part*/
+
+#Pros-and-cons-link {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ 
+ margin-top: 15px;
+ margin-bottom: 15px;
+}
+
+.subtitle-pros-and-cons{
+ margin-top: 5px;
+ margin-bottom: 5px;
+ text-align: center;
+
+ font-size: 18px;
+}
+
+/*button*/
+#prosAndCons {
+ margin-top: 10px;
+ margin-bottom: 10px;
+ padding: 10px;
+
+ border-style: solid;
+ border-width: 3px;
+ border-color: #1A59F4;
+ background-color: #1A59F4;
+
+ font-family: "Sora", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 20px;
+ color: white;
+
+}
+
+/* Pros and cons Page */
+.Pros-and-cons-title {
+ text-align: center;
+
+}
+
+/*Key feature: fact generator*/
+.Pros {
+ margin-top: 0;
+ margin-bottom: 15px;
+ padding: 10px;
+ 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+ 
+ border: 3px solid #1A59F4;
+ background-color: #1A59F4;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+ width: 400px;
+ height: 228px;
+}
+
+.Pros h2{
+ margin-top: 0;
+ font-size: 35px;
+}
+
+.Pros p{
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+#prosBtt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  max-width: 300px;
+
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #fcc428 ;
+  background-color: #fcc428;
+
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+
+.Cons {
+ margin-top: 0;
+ padding: 10px;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+
+ border: 3px solid #1A59F4;
+ background-color: #1A59F4;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+ width: 400px;
+ height: 228px;
+}
+
+.Cons h2{
+ margin-top: 0;
+ font-size: 35px;
+}
+
+.Cons p{
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+#consBtt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+
+  max-width: 300px;
+
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #fcc428 ;
+  background-color: #fcc428;
+
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+.attribution p{
+ margin: 20px;
+ 
+}
+
+
+/*Your Action page*/
+
+.Your-Action-title{
+ color: #1A59F4;
+ text-align: center;
+ font-size: 35px;
+ text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+ margin-top: 20px;
+
+}
+
+/*charts style*/
+.table-of-charts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  padding: 20px;
+}
+
+.table-of-charts div {
+border: 3px solid #fcc428; 
+border-radius: 8px; 
+padding: 15px;
+background-color: #fcc428;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.table-of-charts h2 {
+ margin-top: 0;
+ font-size: 1.5em;
+ color: #1A59F4;
+}
+
+.table-of-charts p {
+ line-height: 1.6;
+
+}
+
+/*youtube videos recs*/
+.videos-title {
+ color: #1A59F4;
+}
+
+.Youtube{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 20px;
+}
+
+#Check {
+ padding: 10px;
+}
+
+
+/*key feature media queries*/
+
+
+@media screen and (max-width: 850px) {
+ 
+ main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+  
+ }
+
+ h2 {
+  font-size: 30px;
+  
+ }
+
+ .Start-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .Start-title h2 {
+   font-size: 30px;
+ }
+ 
+ .Start-title img {
+  
+   width: 375px; 
+   height: 125px; 
+ }
+
+ .main-text-2 {
+  flex-direction: column;
+  align-items: center;
+  
+ }
+ #main-text-2 h2 {
+     font-size: 28px; 
+ }
+
+ .main-text-2 img {
+     max-width: 280px; 
+     max-height: 300px; 
+ }
+
+ #cancellers-text {
+     margin-right: 0; 
+     margin-left: 0;
+     font-size: 16px;
+ }
+ 
+ ul.nav-bar {
+    display: block; 
+  }
+
+  li.nav-item {
+    display: block; 
+    text-align: center;
+  }
+
+  #restart {
+    font-size: 24px; 
+    padding: 10px; 
+  }
+
+ /*pros and Cons*/
+ .Pros {
+  max-width: 200px;
+  max-height: 260px;
+  }
+
+ .Cons {
+  max-width: 200px;
+  max-height: 800px;
+  padding-bottom: 60px;
+  }
+
+ .Cons p{
+  text-align: center;
+  padding-bottom: 50px;
+  }
+
+
+  /*Your Action*/
+
+ .table-of-charts {
+  grid-template-columns: 1fr; 
+  padding: 10px; 
+  margin: 30px;
+   }
+
+.table-of-charts div {
+  padding: 10px; 
+  }
+
+  .table-of-charts h2 {
+     font-size: 1.2em; 
+  }
+
+ .Youtube {
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  
+ }
+}
